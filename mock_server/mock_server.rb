@@ -19,7 +19,7 @@ def is_status?(id)
   statuses.include?(id)
 end
 
-get '/api/brafin-rest/incidente/status' do
+get '/api/incidente/status' do
   File.read('./files/incidentes_status.json')
 end
 
