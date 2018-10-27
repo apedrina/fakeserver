@@ -36,4 +36,6 @@ Run:
 ```	
 http://localhost:4567/api/incidente/1
 ```
+**Gateway**
 
+If needed use a sort of Gateway to access the fakeserve you can look at the GatewayController.java in this repository.
